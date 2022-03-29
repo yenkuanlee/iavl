@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmn "github.com/cosmos/iavl/common"
+	cmn "github.com/yenkuanlee/iavl/common"
 	db "github.com/tendermint/tm-db"
 )
 
