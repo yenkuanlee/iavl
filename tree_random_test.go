@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/yenkuanlee/tm-db"
 )
 
 func TestRandomOperations(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 
 	mrand "math/rand"
 
-	cmn "github.com/cosmos/iavl/common"
+	cmn "github.com/yenkuanlee/iavl/common"
 	"github.com/stretchr/testify/require"
-	db "github.com/tendermint/tm-db"
+	db "github.com/yenkuanlee/tm-db"
 )
 
 func randstr(length int) string {
