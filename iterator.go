@@ -6,7 +6,7 @@ package iavl
 import (
 	"bytes"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/yenkuanlee/tm-db"
 )
 
 type traversal struct {

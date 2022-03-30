@@ -25,7 +25,7 @@ func TestDecodeBytes(t *testing.T) {
 
 		// The following will always fail, since the byte slice is only 8 bytes,
 		// but we're making sure they don't panic due to overflow issues. See:
-		// https://github.com/cosmos/iavl/issues/339
+		// https://github.com/yenkuanlee/iavl/issues/339
 		"max int32":     {bz, uint64(math.MaxInt32), nil, true},
 		"max int32 -1":  {bz, uint64(math.MaxInt32) - 1, nil, true},
 		"max int32 -10": {bz, uint64(math.MaxInt32) - 10, nil, true},

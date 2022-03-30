@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/yenkuanlee/tm-db"
 )
 
 // ErrVersionDoesNotExist is returned if a requested version does not exist.

@@ -9,7 +9,7 @@ package iavl
 import (
 	"testing"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/yenkuanlee/tm-db"
 )
 
 func BenchmarkImmutableAvlTreeCLevelDB(b *testing.B) {

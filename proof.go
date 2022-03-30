@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	cmn "github.com/cosmos/iavl/common"
-	iavlproto "github.com/cosmos/iavl/proto"
+	cmn "github.com/yenkuanlee/iavl/common"
+	iavlproto "github.com/yenkuanlee/iavl/proto"
 )
 
 var (
